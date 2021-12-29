@@ -1,0 +1,22 @@
+.header {
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    img {
+        width: 300px;
+    }
+    &__links{
+        background-color: beige;
+        padding: 1rem;
+        a {
+            color: $textColor;
+            text-decoration: none;
+            font-size: 0.8rem;
+            margin: 0 0.4rem;
+            
+        }
+        #telephone {
+            font-size: 1.1rem;
+        }
+    }
+}

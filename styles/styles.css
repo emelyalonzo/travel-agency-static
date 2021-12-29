@@ -1,11 +1,42 @@
+.header {
+  background-color: aqua;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header img {
+  width: 300px;
+}
+
+.header__links {
+  background-color: beige;
+  padding: 1rem;
+}
+
+.header__links a {
+  color: #444444;
+  text-decoration: none;
+  font-size: 0.8rem;
+  margin: 0 0.4rem;
+}
+
+.header__links #telephone {
+  font-size: 1.1rem;
+}
+
 body {
   width: 100%;
   height: auto;
   background-color: #efefef;
   margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .content {
-  padding: 0 3rem;
+  padding: 1rem 4rem;
 }
 /*# sourceMappingURL=styles.css.map */
