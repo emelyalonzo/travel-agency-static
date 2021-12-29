@@ -1,5 +1,5 @@
 .header {
-  background-color: aqua;
+  padding: 1rem 4rem 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -13,7 +13,6 @@
 }
 
 .header__links {
-  background-color: beige;
   padding: 1rem;
 }
 
@@ -24,19 +23,80 @@
   margin: 0 0.4rem;
 }
 
-.header__links #telephone {
+.header__links a:hover {
+  font-weight: 600;
+}
+
+.header #telephone {
   font-size: 1.1rem;
+}
+
+.navigation {
+  padding: 0 4rem;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navigation__menu {
+  text-transform: uppercase;
+  background-color: #71c61f;
+  padding: 0.2rem 0.4rem;
+  text-align: center;
+  color: white;
+}
+
+.navigation__menu p {
+  font-size: 0.7rem;
+  margin: 0;
+}
+
+.navigation__menu h2 {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.navigation__menu:hover {
+  cursor: pointer;
+}
+
+.navigation__btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navigation__btns__unit {
+  padding: 0.55rem;
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
+}
+
+.navigation__btns__unit a {
+  font-size: 0.8rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #444444;
+}
+
+.navigation__btns__unit:hover {
+  font-weight: 600;
+  border-bottom: 5px solid #71c61f;
 }
 
 body {
   width: 100%;
   height: auto;
-  background-color: #efefef;
+  background-color: #d8d8d8;
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.content {
-  padding: 1rem 4rem;
 }
 /*# sourceMappingURL=styles.css.map */
