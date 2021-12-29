@@ -1,0 +1,42 @@
+.navigation {
+    padding: 0 5rem;
+    background-color: $cardColor;
+    display: flex;
+    justify-content: space-between;
+    &__menu {
+        text-transform: uppercase;
+        background-color: $primaryColor;
+        padding: 0.2rem 0.4rem;
+        text-align: center;
+        color: white;
+        p {
+            font-size: 0.7rem;
+            margin: 0;
+        }
+        h2 {
+            font-size: 1.2rem;
+            margin: 0;
+        }
+        &:hover {
+            cursor: pointer;
+        }
+    }
+    &__btns {
+        display: flex;
+        justify-content: space-between;
+        &__unit {
+            padding: 0.55rem;
+            align-self: stretch;
+            a {
+                font-size: 0.8rem;
+                text-decoration: none;
+                text-transform: uppercase;
+                color: $textColor;
+            }
+            &:hover {
+                font-weight: 600;
+                border-bottom: 5px solid $primaryColor;
+            }
+        }
+    }
+}

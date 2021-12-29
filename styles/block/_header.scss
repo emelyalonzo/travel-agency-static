@@ -1,0 +1,23 @@
+.header {
+    padding: 1rem 4rem 0;
+    display: flex;
+    justify-content: space-between;
+    img {
+        width: 300px;
+    }
+    &__links{
+        padding: 1rem;
+        a {
+            color: $textColor;
+            text-decoration: none;
+            font-size: 0.8rem;
+            margin: 0 0.4rem;
+            &:hover {
+                font-weight: 600;
+            }
+        }
+        }
+        #telephone {
+            font-size: 1.1rem;
+        }
+}
