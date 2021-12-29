@@ -1,0 +1,22 @@
+@import './utilities/variables';
+@import './utilities/responsive';
+
+@import './block/ads';
+@import './block/buttons';
+@import './block/cards';
+@import './block/filters';
+@import './block/footer';
+@import './block/header';
+@import './block/info';
+@import './block/navigation';
+@import './block/social';
+
+body {
+    width: 100%;
+    height: auto;
+    background-color: $backgroundColor;
+    margin: 0;
+}
+.content {
+    padding: 0 3rem;
+}

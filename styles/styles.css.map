@@ -1,0 +1,20 @@
+{
+    "version": 3,
+    "mappings": "AAaA,AAAA,IAAI,CAAC;EACD,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,gBAAgB,ECfF,OAAsB;EDgBpC,MAAM,EAAE,CAAC;CACZ;;AACD,AAAA,QAAQ,CAAC;EACL,OAAO,EAAE,MAAM;CAClB",
+    "sources": [
+        "styles.scss",
+        "utilities/_variables.scss",
+        "utilities/_responsive.scss",
+        "block/_ads.scss",
+        "block/_buttons.scss",
+        "block/_cards.scss",
+        "block/_filters.scss",
+        "block/_footer.scss",
+        "block/_header.scss",
+        "block/_info.scss",
+        "block/_navigation.scss",
+        "block/_social.scss"
+    ],
+    "names": [],
+    "file": "styles.css"
+}
