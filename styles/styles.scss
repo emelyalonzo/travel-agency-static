@@ -17,4 +17,31 @@ body {
     background-color: $backgroundColor;
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    .ads {
+        &__unit {
+            &__1 {
+                background-image: linear-gradient(
+                    rgba(0, 0, 0, 0.5),
+                    rgba(0, 0, 0, 0.5)
+                ),url('../images/empresario.jpg');
+                background-repeat: no-repeat;
+            }
+            &__2 {
+                background-image: linear-gradient(
+                    rgba(0, 0, 0, 0.5),
+                    rgba(0, 0, 0, 0.5)
+                ),url('../images/hyundai.jpg');
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            &__3 {
+                background-image: linear-gradient(
+                    rgba(0, 0, 0, 0.5),
+                    rgba(0, 0, 0, 0.5)
+                ),url('../images/familia.jpg');
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        }
+    }
 }

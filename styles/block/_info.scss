@@ -1,0 +1,14 @@
+.info {
+    margin: 1rem 5rem 5rem;
+    background-color: $cardColor;
+    padding: 1rem 1.5rem;
+    color: $textColor;
+    h3 {
+        margin: 0 0 0.6rem 0;
+        font-size: 1.4rem;
+    }
+    p {
+        margin: 0.4rem 0;
+        text-align: justify;
+    }
+}
