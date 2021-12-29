@@ -1,0 +1,27 @@
+.buttons {
+    display: flex;
+    margin: 0 5rem;
+    justify-content: space-between;
+    &__unit {
+        padding: 1.5rem 0;
+        align-self: center;
+        background-color:rgb(226, 226, 226);
+        width: 160px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color:$primaryColor;
+        p {
+            color: $textColor;
+            margin: 0;
+            &:hover {
+                color:$primaryColor;
+            }
+        }
+        &:hover {
+            cursor: pointer;
+            background-color:rgb(218, 218, 218);
+        }
+    }
+}
